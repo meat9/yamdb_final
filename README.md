@@ -3,10 +3,10 @@
 
 
 
-[![Yamdb](https://github.com/meat9/yamdb_final/workflows/main/badge.svg)](https://github.com/meat9/yamdb_final/actions)
 
 
-[![Yamdb-app workflow](https://github.com/meat9/yamdb_final/workflows/Yamdb-app%20workflow/badge.svg)](https://github.com/meat9/yamdb_final/actions)
+
+[![Yamdb-app workflow](https://github.com/meat9/yamdb_final/workflows/Yamdb-appworkflow/badge.svg)](https://github.com/meat9/yamdb_final/actions)
 
 Проект YaMDb собирает отзывы пользователей на произведения. Произведения делятся на категории: «Книги», «Фильмы», «Музыка».
 
