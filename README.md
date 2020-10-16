@@ -3,7 +3,7 @@
 
 
 
-[![YourActionName Actions Status](https://github.com/meat9/yamdb_final/workflows/learn-github-actions/badge.svg)](https://github.com/meat9/yamdb_final/actions)
+[![YourActionName Actions Status](https://github.com/meat9/yamdb_final/workflows/main/badge.svg)](https://github.com/meat9/yamdb_final/actions)
 
 
 
