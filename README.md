@@ -1,5 +1,12 @@
 # api_yamdb
 
+
+
+
+[![YourActionName Actions Status](https://github.com/meat9/yamdb_final/workflows/learn-github-actions/badge.svg)](https://github.com/meat9/yamdb_final/actions)
+
+
+
 Проект YaMDb собирает отзывы пользователей на произведения. Произведения делятся на категории: «Книги», «Фильмы», «Музыка».
 
 ## Регистрация
