@@ -3,7 +3,7 @@
 
 
 
-[![Yamdb-app workflow](https://github.com/meat9/yamdb_final/workflows/main/badge.svg)](https://github.com/meat9/yamdb_final/actions)
+![Yamdb-app workflow](https://github.com/meat9/yamdb_final/workflows/Yamdb-app%20workflow/badge.svg)
 
 
 
