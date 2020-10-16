@@ -28,6 +28,7 @@ class UserViewSet(viewsets.ModelViewSet):
 
 class EmailCode(APIView):
     permission_classes = (AllowAny,)
+
     def post(self, request):
         email = request.data.get('email')
         try:
@@ -48,16 +49,18 @@ class EmailCode(APIView):
 
 class Get_token(APIView):
     permission_classes = (AllowAny,)
+
     def post(self, request):
         email = request.data.get('email')
         confirm_code = request.data.get('confirm_code')
         try:
             user = User.objects.get(email=email, confirm_code=confirm_code)
+
             def get_tokens_for_user(user):
                 refresh = RefreshToken.for_user(user)
                 token = str(refresh.access_token)
                 return token
-            return Response (("Ваш токен: " + get_tokens_for_user(user)))
+            return Response(("Ваш токен: " + get_tokens_for_user(user)))
 
         except User.DoesNotExist:
             return Response("Пользователь не найден или код подтверждения не верный")

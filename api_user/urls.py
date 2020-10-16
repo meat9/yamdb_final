@@ -3,8 +3,8 @@ from rest_framework import routers
 from rest_framework.authtoken import views
 from rest_framework.routers import DefaultRouter
 from .views import UserViewSet, Get_token, EmailCode
-from api_titles.views import CategoryViewSet, GenreViewSet, TitleViewSet
 from api_review.views import ReviewViewSet, CommentViewSet
+from api_titles.views import CategoryViewSet, GenreViewSet, TitleViewSet
 
 
 router = routers.DefaultRouter()

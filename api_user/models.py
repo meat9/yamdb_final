@@ -3,7 +3,7 @@ from django.db import models
 
 
 class CustomSuperUser(BaseUserManager):
-    
+
     use_in_migrations = True
 
     def _create_user(self, email, password, **extra_fields):
@@ -35,9 +35,9 @@ class CustomSuperUser(BaseUserManager):
 
 class User(AbstractUser):
     STATUS = [
-       ('user', 'user'),
-       ('admin', 'admin'),
-       ('moderator', 'moderator'),
+        ('user', 'user'),
+        ('admin', 'admin'),
+        ('moderator', 'moderator'),
     ]
     role = models.CharField(max_length=9, choices=STATUS, default='admin')
     bio = models.CharField(max_length=250, blank=True, null=True)
