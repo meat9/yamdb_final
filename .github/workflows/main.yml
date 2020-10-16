@@ -20,9 +20,8 @@ jobs:
         pip install -r requirements.txt
 
     - name: Lint with flake8
-      uses: flake8 .
-      with:
-        ignore: "F501"
+      run: flake8 . --config
+ 
     - name: Test with pytest
       run: pytest tests.py
 
